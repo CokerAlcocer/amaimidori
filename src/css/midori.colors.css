@@ -1,7 +1,7 @@
 :root, [data-theme="midori"] {
     --viridian: #5D9377ff;
     --champagne-pink: #F5DBCEff;
-    --champagne-pink-light: #fcf4f0;
+    --champagne-pink-light: #fceee7;
     --licorice: #140907ff;
     --black-bean: #3F1E1Eff;
     --salmon-pink: #F29EAEff;
@@ -21,7 +21,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: inherit;
-    background: var(--champagne-pink-ligth);
+    background: var(--black-bean);
     overflow: hidden;
     font-family: serif;
 }
@@ -45,4 +45,15 @@ body {
 
 .kiwi-fruit-font {
     font-family: 'kiwi_fruit';
+}
+
+.border-viridian {
+    border-bottom: 1px solid var(--viridian);
+}
+
+.container-c {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
