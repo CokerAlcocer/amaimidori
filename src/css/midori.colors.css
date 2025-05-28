@@ -1,0 +1,48 @@
+:root, [data-theme="midori"] {
+    --viridian: #5D9377ff;
+    --champagne-pink: #F5DBCEff;
+    --champagne-pink-light: #fcf4f0;
+    --licorice: #140907ff;
+    --black-bean: #3F1E1Eff;
+    --salmon-pink: #F29EAEff;
+}
+
+@font-face {
+    font-family: 'kiwi_fruit';
+    src: url('/src/fonts/Kiwi\ Fruit.otf');
+}
+
+.blend-bg {
+    mix-blend-mode: multiply;
+    background-color: #D9BAA4;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: inherit;
+    background: var(--champagne-pink-ligth);
+    overflow: hidden;
+    font-family: serif;
+}
+
+.gradient {
+    background: #140907FF;
+    background: linear-gradient(3600deg, rgba(20, 9, 7, 0.57) 19%, rgba(255, 255, 255, 0) 100%);
+}
+
+.bg-champagne-pink {
+    background-color: var(--champagne-pink) !important;
+}
+
+.bg-champagne-pink-light {
+    background-color: var(--champagne-pink-light) !important;
+}
+
+.bg-black-bean {
+    background-color: var(--black-bean) !important;
+}
+
+.kiwi-fruit-font {
+    font-family: 'kiwi_fruit';
+}
