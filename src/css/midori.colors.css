@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'kiwi_fruit';
-    src: url('/src/fonts/Kiwi\ Fruit.otf');
+    src: url('../fonts/Kiwi\ Fruit.otf');
 }
 
 .blend-bg {
