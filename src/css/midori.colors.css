@@ -54,6 +54,25 @@ body {
 .container-c {
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 5%;
+}
+
+.container-f {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.title-text {
+    font-size: 100px;
+}
+
+.sub-title-text {
+    font-size: 60px;
+}
+
+.text {
+    font-size: 18px;
 }
